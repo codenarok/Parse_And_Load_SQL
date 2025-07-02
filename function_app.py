@@ -7,6 +7,7 @@ import pyodbc
 from azure.storage.blob import BlobServiceClient
 import re
 
+# Trigger redeployment: dummy comment for deployment
 app = func.FunctionApp()
 
 @app.function_name(name="Parse_And_Load_SQL")
