@@ -6,7 +6,7 @@ name: Deploy Python project to Azure Function App
 
 on:
   push:
-    branches: ["master"]
+    branches: ["__disabled__"]
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'PnL-analysis-function'
